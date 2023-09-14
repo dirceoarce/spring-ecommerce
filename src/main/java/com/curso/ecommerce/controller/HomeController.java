@@ -124,5 +124,12 @@ public class HomeController {
 		
 		return "user/carrito";
 	}
+	
+	@GetMapping("/order")
+	public String order () {
+		
+		return "user/resumenorden";
+		
+	}
 
 }
