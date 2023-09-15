@@ -31,7 +31,7 @@ public class OrdenServiceImpl implements IOrdenService {
 		int num=0;
 		String numeroConcatenado="";
 		
-		List<Orden> ordenes = findAll();
+		List<Orden> ordenes = findAll();//Lista de ordenes
 		
 		List<Integer> numeros = new ArrayList<Integer>();
 		
