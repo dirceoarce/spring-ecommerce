@@ -75,6 +75,7 @@
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USER</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" th:href="@{/user/compras}">Compras</a>
 						<a class="dropdown-item" th:href="@{/getCart}">Carrito</a>
 					</div>
 				</li>
@@ -99,8 +100,9 @@
 
     <!-- Bootstrap core JavaScript -->
     
-    <script th:src="@{vendor/jquery/jquery.min.js}"></script>
-    <script th:src="@{vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+        <script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+        
+        <script th:src="@{/vendor/jquery/jquery.min.js}"></script>
     
 
   </body>
